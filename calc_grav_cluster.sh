@@ -1,0 +1,5 @@
+sshpass -p "password" ssh -XY cooke@localhost -p 10022 "mkdir ~cluster/sim_repo/Gaus_10m/"
+sshpass -p "password" ssh -XY cooke@localhost -p 10022 "cp ~cluster/sim_repo/test.sh ~cluster/sim_repo/Gaus_10m/"
+sshpass -p "password" ssh -XY cooke@localhost -p 10022 "cp ~cluster/sim_repo/gravity.conf ~cluster/sim_repo/Gaus_10m/"
+sshpass -p "password" ssh -XY cooke@localhost -p 10022 "cp ~cluster/sim_repo/gravity.txt ~cluster/sim_repo/Gaus_10m/"
+sshpass -p "password" ssh -XY cooke@localhost -p 10022 "cp ~cluster/sim_repo/test.in ~cluster/sim_repo/Gaus_10m/"
